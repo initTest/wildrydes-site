@@ -1,10 +1,10 @@
 window._config = {
     cognito: {
-        userPoolId: process.env.REACT_APP_COGNITO_USER_POOL_ID ,
-        userPoolClientId: process.env.REACT_APP_COGNITO_CLIENT_ID,
-        region: process.env.REACT_APP_AWS_REGION
+        userPoolId: 'us-east-1_uyqcLrYgT',
+        userPoolClientId: '1po78hldm0gc19tg45555eld3b',
+        region: 'us-east-1'
     },
     api: {
-        invokeUrl: process.env.REACT_APP_API_INVOKE_URL
+        invokeUrl: ''
     }
 };
